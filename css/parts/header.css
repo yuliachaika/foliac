@@ -1,0 +1,32 @@
+.banner {
+	background-color: #3c4955;
+}
+.banner-nav {
+	font-size: 0;
+}
+.logo {
+	display: inline-block;
+	width: 20%;
+	vertical-align: middle; /*  важно!!!!*/
+}
+.menu {
+	display: inline-block;
+	width: 80%;
+	font-size: 16px;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	text-align: right;
+	vertical-align: middle; /*  важно!!!!*/
+}
+.menu li a {
+ 	color: #ffffff;
+    font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+.menu li {
+	display: inline-block;
+	padding: 0 50px;
+}
