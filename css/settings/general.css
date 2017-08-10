@@ -3,6 +3,14 @@
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
+.clearfix::after {   /* ЧТОБЫ ВЕЗДЕ НЕ ПРОПИСЫВАТЬ clear*/
+	content: "";
+	display: block;
+	clear: both;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
 .container {
 	max-width: 1170px; /*  */
 	margin: 0 auto;
