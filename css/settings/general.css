@@ -3,8 +3,28 @@
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
+.clearfix::after {   /* ЧТОБЫ ВЕЗДЕ НЕ ПРОПИСЫВАТЬ clear*/
+	content: "";
+	display: block;
+	clear: both;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
 .container {
 	max-width: 1170px; /*  */
 	margin: 0 auto;
 	padding: 0 15px;
+}
+.btn {   /*потому что кнопка повторяется!!!!!*/
+	padding: 0 15px;
+	display: inline-block;
+	min-width: 138px; /*чтобы кнопка растягивалась от контента!!!!!*/
+	height: 38px;
+	color: #48BF72;
+	border: 2px solid #48bf72;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	line-height: 34px;
+	text-decoration: none;
 }

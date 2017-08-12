@@ -4,6 +4,8 @@
 
 /* ------ parts --------- */
 
+@import url(parts/buttons-list.css);
+@import url(parts/tabs.css);
 @import url(parts/header.css);
 @import url(tabs/header.css);
 @import url(banner/header.css);
