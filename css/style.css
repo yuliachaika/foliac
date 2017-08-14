@@ -2,12 +2,14 @@
 @import url(settings/typography.css);
 @import url(settings/general.css);
 
+/* ------ plugins --------- */
+@import url(../plugins/Font-Awesome/css/font-awesome.css);
+
 /* ------ parts --------- */
 
 @import url(parts/buttons-list.css);
-@import url(parts/tabs.css);
 @import url(parts/header.css);
-@import url(tabs/header.css);
-@import url(banner/header.css);
-@import url(contact-form/header.css);
+@import url(parts/tabs.css);
+@import url(parts/banner.css);
+@import url(parts/contact-form.css);
 @import url(parts/footer.css);
