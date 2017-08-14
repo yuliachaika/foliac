@@ -26,12 +26,25 @@ body {
 	min-width: 138px; /*чтобы кнопка растягивалась от контента!!!!!*/
 	height: 38px;
 	color: #48BF72;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
 	border: 2px solid #48bf72;
 	-webkit-border-radius: 3px;
 	        border-radius: 3px;
 	line-height: 34px;
 	text-decoration: none;
 }
+.btn--dark {
+	border: 2px solid #3c4955;
+	color: #3c4955;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
 .info-hover {
 	width: 100%;
 	height: 100%;
@@ -80,3 +93,34 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 }
+
+/* -------- .banner -------- */
+
+.banner {
+	padding-top: 30px;
+	position: relative;
+	min-height: 650px;
+	background-repeat: no-repeat;
+	background-position: center;
+    z-index: 1;
+}
+.banner--header {
+	background-image: url("../../img/computer.png");
+}
+.banner--section {
+	background-image: url("../../img/men-computer.png");
+}
+.banner::before {
+	content: "";
+	display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(60, 73, 85, .7);
+    z-index: -1;
+}
+/* -------- .banner -------- */
+
+
